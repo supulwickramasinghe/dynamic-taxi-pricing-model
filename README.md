@@ -703,15 +703,3 @@ The project highlights the complete transition from **business problem → data 
 
 ---
 
-# 👨‍💻 Author
-
-**Supul Wickramasinghe**
-
-BSc (Hons) Data Science
-University of Colombo
-
-**LinkedIn:**
-https://www.linkedin.com/in/supul-wickramasinghe
-
-**GitHub:**
-https://github.com/supulwickramasinghe
