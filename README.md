@@ -416,7 +416,7 @@ influence fare predictions.
 
 ---
 
-# 🌐 RideO Web Application
+#  RideO Web Application
 
 The machine learning component is integrated into a web-based interface designed to simulate how a ride-sharing platform could provide fare estimates to users.
 
@@ -632,7 +632,7 @@ Predicted Dynamic Fare
 
 ---
 
-# 💡 Business Applications
+#  Business Applications
 
 The same approach can support several ride-sharing pricing use cases.
 
