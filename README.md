@@ -36,7 +36,7 @@ The final solution demonstrates the complete analytical workflow:
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Ride-sharing and taxi platforms operate in environments where demand and driver availability change continuously.
 
@@ -62,51 +62,51 @@ This project builds a system capable of:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-✅ Exploratory Data Analysis
+ Exploratory Data Analysis
 
-✅ Demand–Supply Based Dynamic Pricing
+ Demand–Supply Based Dynamic Pricing
 
-✅ Automated Fare Adjustment Logic
+ Automated Fare Adjustment Logic
 
-✅ Feature Engineering
+ Feature Engineering
 
-✅ Train/Test Data Splitting
+ Train/Test Data Splitting
 
-✅ Missing Value & Duplicate Validation
+ Missing Value & Duplicate Validation
 
-✅ Categorical Variable Encoding
+ Categorical Variable Encoding
 
-✅ Numerical Feature Standardization
+ Numerical Feature Standardization
 
-✅ Multiple Linear Regression
+ Multiple Linear Regression
 
-✅ Ridge Regression
+ Ridge Regression
 
-✅ Lasso Regression
+ Lasso Regression
 
-✅ Elastic Net Regression
+ Elastic Net Regression
 
-✅ Random Forest Regression
+ Random Forest Regression
 
-✅ XGBoost Regression
+ XGBoost Regression
 
-✅ Hyperparameter Tuning
+ Hyperparameter Tuning
 
-✅ Cross-Validation
+ Cross-Validation
 
-✅ Model Performance Comparison
+ Model Performance Comparison
 
-✅ Variable Importance Analysis
+ Variable Importance Analysis
 
-✅ Real-Time-Like Fare Prediction
+ Real-Time-Like Fare Prediction
 
-✅ Flask Web Application
+ Flask Web Application
 
 ---
 
-# 🏗 Solution Architecture
+#  Solution Architecture
 
 ```text
                     Historical Ride Dataset
@@ -162,7 +162,7 @@ This project builds a system capable of:
 
 ---
 
-# 🧠 Dynamic Pricing Strategy
+#  Dynamic Pricing Strategy
 
 The central component of the project is the **demand–supply pricing mechanism**.
 
@@ -216,7 +216,7 @@ This derived **adjusted ride cost** becomes the target variable used for predict
 
 ---
 
-# 📊 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 Exploratory analysis is performed before model development to understand the structure of the ride data and relationships affecting dynamic prices.
 
@@ -256,7 +256,7 @@ These variables enable the model to capture both market conditions and customer/
 
 ---
 
-# ⚙️ Feature Engineering
+#  Feature Engineering
 
 Several preprocessing steps are applied before machine learning.
 
@@ -300,7 +300,7 @@ This is particularly important for regularized regression techniques such as:
 
 ---
 
-# 🤖 Machine Learning
+#  Machine Learning
 
 Multiple statistical and machine learning approaches were explored rather than relying on a single algorithm.
 
@@ -378,7 +378,7 @@ subsample
 
 ---
 
-# 📏 Model Evaluation
+#  Model Evaluation
 
 Regression models are evaluated using several complementary metrics.
 
@@ -394,7 +394,7 @@ Using multiple metrics provides a more complete view of predictive performance t
 
 ---
 
-# 🔍 Model Interpretability
+#  Model Interpretability
 
 For tree-based models, feature importance analysis is used to determine which variables contribute most strongly to predicted ride prices.
 
@@ -436,7 +436,7 @@ JavaScript
 
 ---
 
-# 🔄 End-to-End Workflow
+#  End-to-End Workflow
 
 ```text
 Historical Ride Dataset
@@ -523,9 +523,9 @@ dynamic-taxi-pricing-model/
 
 ---
 
-# 📁 Project Files
+#  Project Files
 
-## 📓 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 ```text
 notebooks/EDA.R
@@ -535,7 +535,7 @@ Contains data validation, pricing multiplier generation, descriptive statistics,
 
 ---
 
-## 📈 Statistical Modeling
+##  Statistical Modeling
 
 ```text
 notebooks/MLR_Analysis.R
@@ -548,7 +548,7 @@ Contains classical and regularized regression approaches used to model adjusted 
 
 ---
 
-## 🌲 Random Forest
+##  Random Forest
 
 ```text
 notebooks/Ride_Prediction_Random_forest.ipynb
@@ -558,7 +558,7 @@ Implements a nonlinear ensemble model for dynamic fare prediction.
 
 ---
 
-## 🚀 XGBoost
+##  XGBoost
 
 ```text
 notebooks/XGBoost.R
@@ -568,7 +568,7 @@ Implements boosted tree regression, cross-validation, hyperparameter tuning, mod
 
 ---
 
-## 📄 Project Report
+##  Project Report
 
 ```text
 RideO report.pdf
@@ -578,7 +578,7 @@ Contains the detailed methodology, analysis, modeling process, and project findi
 
 ---
 
-## 🖥 Project Presentation
+##  Project Presentation
 
 ```text
 RideO app presentation.pdf
@@ -598,7 +598,7 @@ Demonstrates the RideO web application and dynamic fare prediction workflow.
 
 ---
 
-# 🚕 Example Prediction Flow
+#  Example Prediction Flow
 
 A typical booking can contain information such as:
 
@@ -662,7 +662,7 @@ Provide customers with estimated prices before confirming a ride.
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Potential improvements include:
 
@@ -684,7 +684,7 @@ Potential improvements include:
 
 ---
 
-# 🎓 Project Context
+#  Project Context
 
 This project demonstrates the application of:
 
